@@ -52,8 +52,17 @@
             <button id="restart-btn">TRY AGAIN</button>
         </div>
         
+        
+        <!-- Name Input Modal -->
+        <div id="name-input-screen" class="overlay">
+            <h1>NEON SURVIVOR</h1>
+            <p>Enter your name to join the battle</p>
+            <input type="text" id="player-name-input" maxlength="12" placeholder="Player Name" autocomplete="off">
+            <button id="name-submit-btn" class="diff-btn normal">CONTINUE</button>
+        </div>
+
         <!-- Start Screen -->
-         <div id="start-screen" class="overlay">
+         <div id="start-screen" class="overlay hidden">
             <h1>NEON SURVIVOR</h1>
             <p>WASD to Move. Space to Dash.</p>
             <div class="difficulty-container">
